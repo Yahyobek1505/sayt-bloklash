@@ -35,11 +35,12 @@ for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     rem Eski ro'yxatni tozalash, keyin qaytadan yozish
     reg delete "!KEY!\URLBlocklist" /f >nul 2>&1
     set /a N=0
+    echo   saytlar yozilmoqda, kuting...
     for /f "usebackq eol=# tokens=*" %%S in ("%LIST%") do (
         set /a N+=1
         reg add "!KEY!\URLBlocklist" /v !N! /t REG_SZ /d "%%S" /f >nul
-        echo   bloklandi: %%S
     )
+    echo   bloklandi: !N! ta sayt
     rem Ruxsat ro'yxati - Google akkauntga kirish uchun kerak
     reg delete "!KEY!\URLAllowlist" /f >nul 2>&1
     reg add "!KEY!\URLAllowlist" /v 1 /t REG_SZ /d "accounts.youtube.com" /f >nul
@@ -83,17 +84,26 @@ echo === Firefox === siyosat yozildi
 
 rem --- hosts fayli: barcha dasturlar uchun ishlaydi ---
 attrib -r "%HOSTS%" >nul 2>&1
+rem Eski blok qatorlarini olib tashlab, yangi hosts ni vaqtinchalik faylda yig'amiz
 findstr /v /c:"%MARK%" "%HOSTS%" > "%TEMP%\hosts.tmp"
-copy /y "%TEMP%\hosts.tmp" "%HOSTS%" >nul
-for /f "usebackq eol=# tokens=*" %%S in ("%LIST%") do (
-    set "SITE=%%S"
-    rem "/" bo'lgan manzillarni hosts ga yozib bo'lmaydi
-    if "!SITE:/=!"=="!SITE!" (
-        >>"%HOSTS%" echo 0.0.0.0 %%S %MARK%
-        >>"%HOSTS%" echo 0.0.0.0 www.%%S %MARK%
-        >>"%HOSTS%" echo 0.0.0.0 m.%%S %MARK%
+rem "/" bo'lgan manzillar hosts ga yozilmaydi.
+rem Microsoft manzillari ham yozilmaydi: Windows Defender buni xavf deb
+rem hisoblab, hosts faylni tiklab yuborishi mumkin. Ular brauzerlarda baribir bloklanadi.
+>>"%TEMP%\hosts.tmp" (
+    echo.
+    for /f "usebackq eol=# tokens=*" %%S in ("%LIST%") do (
+        set "SITE=%%S"
+        set "SKIP="
+        if not "!SITE:/=!"=="!SITE!" set "SKIP=1"
+        for %%W in (microsoft bing xbox) do if not "!SITE:%%W=!"=="!SITE!" set "SKIP=1"
+        if not defined SKIP (
+            echo 0.0.0.0 %%S %MARK%
+            echo 0.0.0.0 www.%%S %MARK%
+            echo 0.0.0.0 m.%%S %MARK%
+        )
     )
 )
+copy /y "%TEMP%\hosts.tmp" "%HOSTS%" >nul
 del "%TEMP%\hosts.tmp" >nul 2>&1
 ipconfig /flushdns >nul
 echo.

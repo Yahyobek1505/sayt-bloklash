@@ -269,3 +269,293 @@ now.gg
 xbox.com
 play.geforcenow.com
 boosteroid.com
+geforcenow.com
+
+# ==========================================================
+# Quyidagilar oyin_saytlarini_bloklash_domenlar_royxati.txt dan qo'shildi
+# ==========================================================
+
+# --- O'yin platformalari va mod saytlari ---
+rblx.com
+minecraft.com
+mojang.com
+xboxplay.games
+xboxlive.com
+steamgames.com
+steamstatic.com
+steamusercontent.com
+steamdb.info
+epicgames.dev
+needforspeed.com
+playstation.com
+playstation.net
+nintendo.com
+nintendo.net
+gamejolt.com
+mod.io
+nexusmods.com
+curseforge.com
+gamebanana.com
+moddb.com
+indiedb.com
+tabletopsimulator.com
+
+# --- O'yin yangiliklari saytlari ---
+gamepressure.com
+gamespot.com
+ign.com
+wowhead.com
+
+# --- Brauzer o'yin portallari ---
+gamesgames.com
+girlsgogames.com
+girlsgogames.co.uk
+primarygames.com
+coolmath.com
+armor-games.com
+newgrounds.com
+gameflare.com
+gameflare.io
+gamaverse.com
+gameslol.net
+gameslol.com
+gamesnacks.com
+plays.org
+gamezop.com
+gamemonetize.com
+gametap.com
+htmlgames.com
+onlinegames.io
+bestgames.com
+twoplayergames.org
+twoplayergames.com
+freeonlinegames.com
+games.co.uk
+gamesfreak.net
+games1.com
+gamesxl.com
+girlgames.com
+games2girls.com
+gamesforgirls.com
+myplaycity.com
+playretrogames.com
+retrogames.cc
+classicreload.com
+poki.games
+y8games.com
+y8.in
+y8games.net
+friv4school.com
+frivclassic.com
+friv5online.com
+kizi10.org
+kizi2.com
+gamesfree.com
+gameszap.com
+gamesbutler.com
+gameshero.com
+gamezhero.com
+gameforge.com
+bigfishgames.com
+popcap.com
+wildtangent.com
+shockwave.com
+jayisgames.com
+notdoppler.com
+bubblerush.com
+mousebreaker.com
+bored.com
+boredbutton.com
+freegames.org
+freegames.com
+playit-online.com
+gameshouse.com
+dressupgames.com
+dolldivine.com
+rinmarugames.com
+azaleasdolls.com
+numuki.com
+yiv.com
+
+# --- Boshqotirma, karta va stol o'yinlari ---
+gamesforthebrain.com
+brainzilla.com
+puzzlegames.com
+jigsawplanet.com
+puzzlemadness.co.uk
+thewordsearch.com
+wordgames.com
+mahjong.com
+mahjongg.com
+solitaire.com
+solitaired.com
+cardgames.io
+playingcards.io
+yucata.de
+boiteajeux.net
+tabletopia.com
+roll20.net
+dndbeyond.com
+forge-vtt.com
+owlbear.rodeo
+colonist.io
+catanuniverse.com
+boardgamearena.com
+codenames.game
+
+# --- Rasm chizish va guruh o'yinlari ---
+garticphone.com
+drawasaurus.org
+drawize.com
+makeitmeme.com
+jackbox.tv
+jackboxgames.com
+
+# --- .io va multiplayer o'yinlar ---
+mope.io
+deeeep.io
+flyordie.io
+wormate.io
+wormszone.io
+snake.io
+paper.io
+hole.io
+bonk.io
+shellshockers.io
+surviv.io
+buildnow.gg
+kirka.io
+narrow.one
+repuls.io
+miniroyale.io
+haxball.com
+tetr.io
+jstris.jezevec10.com
+powerline.io
+curvefever.pro
+horde.kitchen
+geoguessr.com
+
+# --- Mashhur kompyuter o'yinlari ---
+battlegroundsmobileindia.com
+freefiremobile.com
+valorant.com
+playoverwatch.com
+apexlegends.com
+rocketleague.com
+fallguys.com
+among.us
+honorofkings.com
+pokemon.com
+pokemonunite.com
+genshinimpact.com
+wutheringwaves.com
+wutheringwaves.kurogames.com
+warframe.com
+destinythegame.com
+worldofwarcraft.com
+albiononline.com
+runescape.com
+guildwars2.com
+playlostark.com
+blackdesertonline.com
+
+# --- Mobil o'yinlar ---
+brawlstars.com
+clashofclans.com
+clashroyale.com
+hayday.com
+boombeach.com
+subwaysurfers.com
+temple-run.com
+templerun.com
+angrybirds.com
+rovio.com
+king.com
+candycrushsaga.com
+playrix.com
+gardenscapes.com
+homescapes.com
+toonblast.com
+mytalkingtom.com
+outfit7.com
+pou.me
+halfbrick.com
+fruitninja.com
+jetpackjoyride.com
+geometrydash.com
+8ballpool.com
+miniclipgames.com
+dreamleaguesoccer.com
+firsttouchgames.com
+efootball.com
+
+# --- Subdomenlar ---
+# Brauzerda ota domen orqali allaqachon bloklangan.
+# hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
+web.roblox.com
+create.roblox.com
+store.epicgames.com
+store.steampowered.com
+store.playstation.com
+accounts.nintendo.com
+cdn.cloudflare.steamstatic.com
+ff.garena.com
+wildrift.leagueoflegends.com
+teamfighttactics.leagueoflegends.com
+overwatch.blizzard.com
+genshin.hoyoverse.com
+honkai-star-rail.hoyoverse.com
+hsr.hoyoverse.com
+zenless.hoyoverse.com
+play.pokemon.com
+oldschool.runescape.com
+
+# --- TA'LIMIY O'YINLAR VA DARS SAYTLARI - HOZIRCHA OCHIQ ---
+# Bular darsda ishlatiladi, shuning uchun bloklanmagan.
+# Biror saytni bloklash uchun qator boshidagi "# " ni o'chiring.
+# kahoot.com
+# kahoot.it
+# quizizz.com
+# wayground.com
+# wordwall.net
+# learningapps.org
+# quizlet.com
+# quizalize.com
+# baamboozle.com
+# educandy.com
+# purposegames.com
+# blooket.com
+# gimkit.com
+# code.org
+# scratch.mit.edu
+# codecombat.com
+# lightbot.com
+# typingclub.com
+# nitrotype.com
+# typeracer.com
+# monkeytype.com
+# abcya.com
+# abcya.net
+# pbskids.org
+# funbrain.com
+# natgeokids.com
+# mathplayground.com
+# education.com
+# arcademics.com
+# sheppardsoftware.com
+# learninggamesforkids.com
+# toytheater.com
+# roomrecess.com
+# turtlediary.com
+# starfall.com
+# splashlearn.com
+# prodigygame.com
+# prodigy.com
+# gamestolearnenglish.com
+# lichess.org
+# chess.com
+# chesskid.com
+# chessable.com
+# chess24.com
+# chessbase.com
