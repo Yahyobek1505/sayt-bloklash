@@ -56,6 +56,16 @@ for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     echo   yuklab olish cheklovi: %DL_LEVEL%
 )
 
+rem --- Brauzer va Windows ichidagi AI yordamchilar ---
+rem Chrome: Gemini - 1 = o'chirilgan
+reg add "HKLM\SOFTWARE\Policies\Google\Chrome" /v GeminiSettings /t REG_DWORD /d 1 /f >nul
+rem Edge: yon panel va undagi Copilot
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /t REG_DWORD /d 0 /f >nul
+rem Windows: Copilot
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f >nul
+echo.
+echo === AI yordamchilar o'chirildi: Gemini, Edge Copilot, Windows Copilot ===
+
 rem --- Firefox siyosati ---
 reg delete "HKLM\SOFTWARE\Policies\Mozilla\Firefox\WebsiteFilter\Block" /f >nul 2>&1
 set /a N=0

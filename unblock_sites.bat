@@ -21,6 +21,9 @@ for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     reg delete "HKLM\SOFTWARE\Policies\%%~B" /v DnsOverHttpsMode /f >nul 2>&1
     reg delete "HKLM\SOFTWARE\Policies\%%~B" /v DownloadRestrictions /f >nul 2>&1
 )
+reg delete "HKLM\SOFTWARE\Policies\Google\Chrome" /v GeminiSettings /f >nul 2>&1
+reg delete "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /f >nul 2>&1
+reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /f >nul 2>&1
 reg delete "HKLM\SOFTWARE\Policies\Mozilla\Firefox\WebsiteFilter" /f >nul 2>&1
 reg delete "HKLM\SOFTWARE\Policies\Mozilla\Firefox" /v DisablePrivateBrowsing /f >nul 2>&1
 

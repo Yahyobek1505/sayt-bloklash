@@ -2,6 +2,61 @@
 # Har qatorga bitta sayt yozing. # bilan boshlangan qatorlar e'tiborga olinmaydi.
 # "/" bo'lgan manzillar (masalan yandex.uz/games) faqat brauzer siyosati orqali bloklanadi.
 
+# --- Sun'iy intellekt: suhbat botlari ---
+openai.com
+chatgpt.com
+claude.ai
+gemini.google.com
+bard.google.com
+aistudio.google.com
+notebooklm.google.com
+copilot.microsoft.com
+bing.com/chat
+perplexity.ai
+deepseek.com
+grok.com
+x.ai
+meta.ai
+mistral.ai
+poe.com
+you.com
+phind.com
+qwen.ai
+kimi.com
+z.ai
+doubao.com
+giga.chat
+deepai.org
+openrouter.ai
+lmarena.ai
+huggingface.co
+# Yandex Alisa yandex.ru orqali allaqachon bloklangan
+
+# --- Sun'iy intellekt: personaj bilan suhbat ---
+character.ai
+janitorai.com
+talkie-ai.com
+
+# --- Sun'iy intellekt: uy vazifasi va matn yozish ---
+quillbot.com
+gauthmath.com
+photomath.com
+mathway.com
+questionai.com
+writesonic.com
+jasper.ai
+copy.ai
+
+# --- Sun'iy intellekt: rasm, video va musiqa ---
+midjourney.com
+leonardo.ai
+ideogram.ai
+runwayml.com
+pika.art
+lumalabs.ai
+krea.ai
+suno.com
+
 # --- Ijtimoiy tarmoqlar ---
 tiktok.com
 instagram.com
