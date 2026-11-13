@@ -1,0 +1,216 @@
+# Bloklanadigan saytlar ro'yxati
+# Har qatorga bitta sayt yozing. # bilan boshlangan qatorlar e'tiborga olinmaydi.
+# "/" bo'lgan manzillar (masalan yandex.uz/games) faqat brauzer siyosati orqali bloklanadi.
+
+# --- Ijtimoiy tarmoqlar ---
+tiktok.com
+instagram.com
+facebook.com
+vk.com
+vk.ru
+ok.ru
+likee.video
+
+# --- Video saytlar ---
+youtube.com
+youtu.be
+vkvideo.ru
+rutube.ru
+dzen.ru
+dailymotion.com
+vimeo.com
+bilibili.com
+mover.uz
+
+# --- Strim (jonli efir) saytlari ---
+twitch.tv
+kick.com
+trovo.live
+
+# --- Kino va serial saytlari ---
+netflix.com
+kinopoisk.ru
+ivi.ru
+okko.tv
+itv.uz
+rezka.ag
+hdrezka.ag
+asilmedia.org
+uzmovi.com
+
+# --- Roblox va Yandex o'yinlari ---
+roblox.com
+rbxcdn.com
+yandex.uz/games
+# yandex.ru butunlay bloklangan - barcha subdomenlari bilan
+yandex.ru
+yandex.com/games
+yandex.kz/games
+yandex.by/games
+yandex.com.tr/games
+ya.ru/games
+games.yandex.com
+playhop.com
+# Yandex o'yinlarining o'zi shu serverdan yuklanadi
+games.s3.yandex.net
+
+# --- Ilova do'konlari: Play Market, App Store va boshqalar ---
+play.google.com
+apps.apple.com
+itunes.apple.com
+apps.microsoft.com
+galaxystore.samsung.com
+appgallery.huawei.com
+amazon.com/appstore
+rustore.ru
+f-droid.org
+9apps.com
+
+# --- O'yin do'konlari va launcherlar ---
+counter-strike.net
+steampowered.com
+steamcommunity.com
+epicgames.com
+gog.com
+ea.com
+ubisoft.com
+battle.net
+blizzard.com
+riotgames.com
+leagueoflegends.com
+playvalorant.com
+# Minecraft Education ham bloklanadi: education.minecraft.net
+minecraft.net
+vkplay.ru
+lesta.ru
+wargaming.net
+garena.com
+pubg.com
+pubgmobile.com
+krafton.com
+levelinfinite.com
+tencentgames.com
+standoff2.com
+mobilelegends.com
+callofduty.com
+activision.com
+rockstargames.com
+dota2.com
+konami.com
+supercell.com
+fortnite.com
+hoyoverse.com
+warthunder.com
+gaijin.net
+
+# --- Kompyuterda telefon o'yinlarini o'ynatuvchi emulyatorlar ---
+bluestacks.com
+ldplayer.net
+bignox.com
+memuplay.com
+gameloop.com
+mumuplayer.com
+genymotion.com
+smartgaga.com
+xeplayer.com
+# Kompyuterga Android tizimining o'zini o'rnatadigan dasturlar
+primeos.in
+blissos.org
+android-x86.org
+# Brauzerda ishlaydigan onlayn emulyator
+appetize.io
+# Google Play Games (kompyuter versiyasi) play.google.com orqali allaqachon bloklangan
+
+# --- Torrent saytlari (CS va boshqa o'yinlar shu yerdan yuklanadi) ---
+rutracker.org
+rutor.info
+nnmclub.to
+thepiratebay.org
+1337x.to
+
+# --- Buzilgan (crack) o'yin yuklash saytlari ---
+fitgirl-repacks.site
+online-fix.me
+torrent-igruha.org
+igg-games.com
+oceanofgames.com
+steamunlocked.net
+
+# --- Torrent dasturlari ---
+utorrent.com
+bittorrent.com
+qbittorrent.org
+
+# --- Fayl almashish saytlari (o'yinlar ko'pincha shu yerga joylanadi) ---
+# Dars uchun kerak bo'lsa, qator boshiga # qo'ying
+mediafire.com
+mega.nz
+
+# --- Dastur va APK yuklash saytlari ---
+softonic.com
+uptodown.com
+filehippo.com
+apkpure.com
+apkmirror.com
+apkcombo.com
+aptoide.com
+an1.com
+happymod.com
+
+# --- Brauzerda o'ynaladigan yengil o'yin saytlari ---
+poki.com
+crazygames.com
+friv.com
+y8.com
+miniclip.com
+kizi.com
+agame.com
+armorgames.com
+kongregate.com
+coolmathgames.com
+addictinggames.com
+silvergames.com
+lagged.com
+gamepix.com
+1001games.com
+itch.io
+igroutka.ru
+hoodamath.com
+geometryspot.com
+
+# --- Geometry Dash va uning onlayn nusxalari ---
+robtopgames.com
+geodash.org
+geometrydashlite.online
+# Boshqa saytlarga o'rnatilgan o'yinlarni ham to'xtatadi
+gamedistribution.com
+
+# --- .io o'yinlar ---
+krunker.io
+slither.io
+agar.io
+diep.io
+shellshock.io
+paper-io.com
+1v1.lol
+smashkarts.io
+bloxd.io
+zombsroyale.io
+venge.io
+ev.io
+evowars.io
+moomoo.io
+taming.io
+skribbl.io
+gartic.io
+
+# --- Kompyuter o'yinlari saytlari ---
+innersloth.com
+stumbleguys.com
+
+# --- Bulutli o'yin (brauzerda kompyuter va telefon o'yinlari) ---
+now.gg
+# Xbox butunlay: o'yin do'koni ham, bulutli o'yin ham
+xbox.com
+play.geforcenow.com
+boosteroid.com
