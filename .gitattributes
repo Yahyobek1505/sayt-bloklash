@@ -1,3 +1,5 @@
 # .bat va .txt fayllar Windows qator oxiri (CRLF) bilan o'zgarishsiz saqlansin
 *.bat -text
 *.txt -text
+# Mac skriptlari faqat LF qator oxiri bilan ishlaydi
+*.command text eol=lf
