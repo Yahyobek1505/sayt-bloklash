@@ -91,7 +91,10 @@ itv.uz
 rezka.ag
 hdrezka.ag
 asilmedia.org
+asilmedia.net
 uzmovi.com
+uzmedia.tv
+freekino.net
 
 # --- Roblox va Yandex o'yinlari ---
 roblox.com
