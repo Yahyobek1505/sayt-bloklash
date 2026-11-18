@@ -129,6 +129,8 @@ orteil.dashnet.org
 play2048.co
 nytimes.com/games
 quickdraw.withgoogle.com
+# Butun sayt bloklanadi, typinggames.zone/space-type ham shu ichida
+typinggames.zone
 
 # --- Ilova do'konlari: Play Market, App Store va boshqalar ---
 play.google.com
