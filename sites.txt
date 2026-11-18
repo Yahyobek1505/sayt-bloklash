@@ -112,6 +112,24 @@ playhop.com
 # Yandex o'yinlarining o'zi shu serverdan yuklanadi
 games.s3.yandex.net
 
+# --- Yandex Games alternativlari ---
+# HTML5 o'yin platformalari va kataloglari
+playgama.com
+playupi.com
+gamepush.com
+gamearter.com
+# Mail.ru va VK o'yinlari (vk.com va ok.ru o'yinlari yuqorida bloklangan)
+my.games
+games.mail.ru
+vkplay.live
+# Brauzer o'yinlari
+tankionline.com
+tribalwars.net
+orteil.dashnet.org
+play2048.co
+nytimes.com/games
+quickdraw.withgoogle.com
+
 # --- Ilova do'konlari: Play Market, App Store va boshqalar ---
 play.google.com
 apps.apple.com
