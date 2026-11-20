@@ -132,6 +132,25 @@ quickdraw.withgoogle.com
 # Butun sayt bloklanadi, typinggames.zone/space-type ham shu ichida
 typinggames.zone
 
+# --- Rus tilidagi o'yin kataloglari (games.pikabu.ru kabi) ---
+games.pikabu.ru
+games.woman.ru
+games.rambler.ru
+startgamer.ru
+min2win.ru
+igru.net
+vseigru.net
+playminigames.ru
+flash4play.com
+game-game.com.ua
+bygame.ru
+gamaverse.ru
+flashplayer.ru
+pacogames.com
+# O'yin yangiliklari saytlari
+ag.ru
+kanobu.ru
+
 # --- Ilova do'konlari: Play Market, App Store va boshqalar ---
 play.google.com
 apps.apple.com
