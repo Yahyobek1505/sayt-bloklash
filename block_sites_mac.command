@@ -14,13 +14,28 @@ HOSTS="/etc/hosts"
 #   0 = cheklov yo'q
 DL_LEVEL=1
 
+# Brauzer kengaytmalari - Chrome, Edge, Yandex
+#   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
+#   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
+EXT_BLOCK_ALL=0
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LIST="$SCRIPT_DIR/sites.txt"
+EXTLIST="$SCRIPT_DIR/extensions.txt"
 PROFILE="$SCRIPT_DIR/maktab-sayt-bloklash.mobileconfig"
 
 # sites.txt dan saytlarni o'qish: izoh va bo'sh qatorlar tashlab ketiladi
 read_sites() {
     tr -d '\r' < "$LIST" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | grep -v -e '^#' -e '^$'
+}
+
+# Bloklanadigan kengaytma ID lari
+read_exts() {
+    if [ "$EXT_BLOCK_ALL" = "1" ]; then
+        echo "*"
+    elif [ -f "$EXTLIST" ]; then
+        tr -d '\r' < "$EXTLIST" | grep -v '^[[:space:]]*#' | awk 'NF { print $1 }'
+    fi
 }
 
 # Brauzer profili uchun XML qismlari
@@ -54,6 +69,10 @@ $(read_sites | xml_array "" "")
 			<key>URLAllowlist</key>
 			<array>
 				<string>accounts.youtube.com</string>
+			</array>
+			<key>ExtensionInstallBlocklist</key>
+			<array>
+$(read_exts | xml_array "" "")
 			</array>
 			<key>IncognitoModeAvailability</key>
 			<integer>1</integer>

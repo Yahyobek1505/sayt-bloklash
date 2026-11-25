@@ -1,0 +1,42 @@
+# Bloklanadigan Chrome kengaytmalari (o'yinlar)
+# Har qatorda: kengaytma ID si, keyin nomi. # bilan boshlangan qatorlar hisobga olinmaydi.
+# ID ni Chrome Web Store manzilidan olish mumkin:
+#   chromewebstore.google.com/detail/nomi/ID  <- oxirgi 32 harfli qism
+# Bloklangan kengaytma o'rnatilmaydi, oldin o'rnatilgan bo'lsa o'chiriladi.
+
+# --- Gamebol (gamebol.com) o'yinlari ---
+pejkgdckdlgindeinnaeedpiiehmkojm Shoot Balls Arcade Game
+kakdojfmhikjaljlhmcmmcoleajihcle Gravity Ball Casual Game
+alchafhgcbiapliekdpkceaehjdgcfgj Infinite Runner Platform
+lkoapbodlkjmfklojlickfnkpijmabkl Puzzle Match Relaxing Game
+mjbooegeageceidgpahmkkkphjlfoleb Throw Ball Arcade Game
+enmnfiamhdancfenehofpomnocoiejmf Wall Ball Arcade Game
+dammcbgpmclkjlfblmlnejolakkepefm Rolling Ball Puzzle Game
+heffpopihbldlppkngepoclpbmippmbg Ball Escape Arcade Game
+ccooobkbegjohldokfcpjofhaamdnepj 3D Rolling Ball Game
+goegmdkeimnmolkhmbnonkjkblnjhkon Ball In The Hole Arcade Game
+gdmkjjkpoooibbamcldfhjbakeinpbpf Helix Stack Ball Arcade Game
+jgmldnfkglbpcpfndppffkijehgfnnll Gun Fest Arcade Game
+ahkfcgekeobfkmegojiinpbaknbbmbla Shape Shift Parkour Game
+mljbpnhgcmdcajjbbkgemlicpennibpl The Walls Casual Game
+dajfjkknefodcaoncilnjfkkpgpioolh Flappy Basketball Game
+cheaiglkjlidecipnklfkoeammcakkon Balloon Protect Arcade Game
+mfngjcmoogbejomejhlhadmecfilcleo Endless Golf Battle Game
+cklehnkijanbghbfemmkcjcaljemdpec Valley Ball Shooting Game
+
+# --- O'yin to'plamlari (bitta kengaytmada ko'p o'yin) ---
+dppajjnphhgfonicmekfboemhofieabc Offline Games
+gehadamnihncolfbpjdiboaadagpglbf Offline Games To Play
+cmlohbihejppclncejebfblomkbbabdd No Wifi Games
+galmdbpidaldmjkblknnjoegipnoodna 100 Offline Games
+hmompdeandadciapgdihobnpnnmgomhd CABA HTML Games
+kibmbheanlopnfmfpnaeedaclelbmchd Games That Are Unblocked
+mihbbcgekbceobmkgeddfjlgbbflkdfm Online Gamer Haven
+bflbbiapbmjabnhkijehahppgbkohbhb Sidecade
+fncbpinlpcjmmfkenleanhpgeepkikeh Game Hubs
+bppgcklnnokbglhoobmjlkapciklmmfe APKSL77 H5 Games
+njmeodagbaobikllmhoplodaciibckjn Games
+ifpgmhkaielnhfhkekakcdfmjdhllgbo xGames New Tab
+nmmgpbdiaofjcjmomgfpaplmabdkpjpm Arcade Classics
+gokcmhknbfbkchaljcbjloaebnoblcnd Arcade Classics
+ijlpnmkohjhhclkjkmnkmknekgicknec Arcade Classics

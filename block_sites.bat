@@ -27,6 +27,12 @@ rem   3 = HAMMA yuklab olishni bloklash
 rem   0 = cheklov yo'q
 set "DL_LEVEL=1"
 
+rem --- Brauzer kengaytmalari - Chrome, Edge, Yandex ---
+rem   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
+rem   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
+set "EXT_BLOCK_ALL=0"
+set "EXTLIST=%~dp0extensions.txt"
+
 rem --- Brauzerlar siyosati: Chrome, Edge, Yandex Browser ---
 for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     set "KEY=HKLM\SOFTWARE\Policies\%%~B"
@@ -45,6 +51,19 @@ for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     reg delete "!KEY!\URLAllowlist" /f >nul 2>&1
     reg add "!KEY!\URLAllowlist" /v 1 /t REG_SZ /d "accounts.youtube.com" /f >nul
     echo   ruxsat berildi: accounts.youtube.com
+    rem O'yin kengaytmalarini bloklash
+    reg delete "!KEY!\ExtensionInstallBlocklist" /f >nul 2>&1
+    if "%EXT_BLOCK_ALL%"=="1" (
+        reg add "!KEY!\ExtensionInstallBlocklist" /v 1 /t REG_SZ /d "*" /f >nul
+        echo   kengaytmalar: hammasi bloklandi
+    ) else if exist "%EXTLIST%" (
+        set /a E=0
+        for /f "usebackq eol=# tokens=1" %%E in ("%EXTLIST%") do (
+            set /a E+=1
+            reg add "!KEY!\ExtensionInstallBlocklist" /v !E! /t REG_SZ /d "%%E" /f >nul
+        )
+        echo   bloklangan kengaytmalar: !E! ta
+    )
     rem Inkognito rejimini o'chirish - 1 = o'chirilgan
     reg add "!KEY!" /v IncognitoModeAvailability /t REG_DWORD /d 1 /f >nul
     rem Mehmon rejimi va yangi profil qo'shishni o'chirish

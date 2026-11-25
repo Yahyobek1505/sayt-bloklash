@@ -93,8 +93,19 @@ hdrezka.ag
 asilmedia.org
 asilmedia.net
 uzmovi.com
+uzmovi.net
+uzmovi.club
+uzmovee.net
 uzmedia.tv
 freekino.net
+uz-new.com
+uzdub.net
+kinolar.tv
+kinochilar.com
+uzproo.com
+uzbeklar.biz
+uzbek-tilida.ru
+okay.moy.su
 
 # --- Roblox va Yandex o'yinlari ---
 roblox.com
@@ -131,6 +142,12 @@ nytimes.com/games
 quickdraw.withgoogle.com
 # Butun sayt bloklanadi, typinggames.zone/space-type ham shu ichida
 typinggames.zone
+
+# --- O'yin kengaytmalari mualliflari va yuklash saytlari ---
+# Kengaytmalarning o'zi extensions.txt orqali bloklanadi
+gamebol.com
+crx4chrome.com
+w3technic.com
 
 # --- Rus tilidagi o'yin kataloglari (games.pikabu.ru kabi) ---
 games.pikabu.ru

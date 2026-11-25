@@ -15,6 +15,7 @@ set "MARK=# SCHOOL-BLOCK"
 for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     reg delete "HKLM\SOFTWARE\Policies\%%~B\URLBlocklist" /f >nul 2>&1
     reg delete "HKLM\SOFTWARE\Policies\%%~B\URLAllowlist" /f >nul 2>&1
+    reg delete "HKLM\SOFTWARE\Policies\%%~B\ExtensionInstallBlocklist" /f >nul 2>&1
     reg delete "HKLM\SOFTWARE\Policies\%%~B" /v IncognitoModeAvailability /f >nul 2>&1
     reg delete "HKLM\SOFTWARE\Policies\%%~B" /v BrowserGuestModeEnabled /f >nul 2>&1
     reg delete "HKLM\SOFTWARE\Policies\%%~B" /v BrowserAddPersonEnabled /f >nul 2>&1
