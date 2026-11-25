@@ -32,6 +32,9 @@ rem   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
 rem   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
 set "EXT_BLOCK_ALL=1"
 set "EXTLIST=%~dp0extensions.txt"
+rem Bloklanmaydigan kengaytmalar ID lari, bo'sh joy bilan ajratiladi
+rem   ghbmnnjooekpmoecnnnilnnbdlolhkhi = Google Docs Offline
+set "EXT_ALLOW=ghbmnnjooekpmoecnnnilnnbdlolhkhi"
 
 rem --- Brauzerlar siyosati: Chrome, Edge, Yandex Browser ---
 for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
@@ -53,6 +56,14 @@ for %%B in ("Google\Chrome" "Microsoft\Edge" "YandexBrowser") do (
     echo   ruxsat berildi: accounts.youtube.com
     rem O'yin kengaytmalarini bloklash
     reg delete "!KEY!\ExtensionInstallBlocklist" /f >nul 2>&1
+    rem Ruxsat berilgan kengaytmalar - bloklashdan mustasno
+    reg delete "!KEY!\ExtensionInstallAllowlist" /f >nul 2>&1
+    set /a A=0
+    for %%X in (%EXT_ALLOW%) do (
+        set /a A+=1
+        reg add "!KEY!\ExtensionInstallAllowlist" /v !A! /t REG_SZ /d "%%X" /f >nul
+    )
+    echo   ruxsat berilgan kengaytmalar: !A! ta - Google Docs Offline
     if "%EXT_BLOCK_ALL%"=="1" (
         reg add "!KEY!\ExtensionInstallBlocklist" /v 1 /t REG_SZ /d "*" /f >nul
         echo   kengaytmalar: hammasi bloklandi

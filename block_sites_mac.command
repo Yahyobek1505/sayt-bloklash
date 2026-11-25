@@ -18,6 +18,9 @@ DL_LEVEL=1
 #   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
 #   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
 EXT_BLOCK_ALL=1
+# Bloklanmaydigan kengaytmalar ID lari, bo'sh joy bilan ajratiladi
+#   ghbmnnjooekpmoecnnnilnnbdlolhkhi = Google Docs Offline
+EXT_ALLOW="ghbmnnjooekpmoecnnnilnnbdlolhkhi"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LIST="$SCRIPT_DIR/sites.txt"
@@ -73,6 +76,10 @@ $(read_sites | xml_array "" "")
 			<key>ExtensionInstallBlocklist</key>
 			<array>
 $(read_exts | xml_array "" "")
+			</array>
+			<key>ExtensionInstallAllowlist</key>
+			<array>
+$(printf '%s\n' $EXT_ALLOW | xml_array "" "")
 			</array>
 			<key>IncognitoModeAvailability</key>
 			<integer>1</integer>
