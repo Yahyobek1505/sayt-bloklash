@@ -17,7 +17,7 @@ DL_LEVEL=1
 # Brauzer kengaytmalari - Chrome, Edge, Yandex
 #   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
 #   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
-EXT_BLOCK_ALL=0
+EXT_BLOCK_ALL=1
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LIST="$SCRIPT_DIR/sites.txt"

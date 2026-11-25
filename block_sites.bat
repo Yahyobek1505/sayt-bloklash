@@ -30,7 +30,7 @@ set "DL_LEVEL=1"
 rem --- Brauzer kengaytmalari - Chrome, Edge, Yandex ---
 rem   0 = faqat extensions.txt dagi o'yin kengaytmalari bloklanadi
 rem   1 = HAMMA kengaytmalar bloklanadi, o'rnatilganlari ham o'chadi
-set "EXT_BLOCK_ALL=0"
+set "EXT_BLOCK_ALL=1"
 set "EXTLIST=%~dp0extensions.txt"
 
 rem --- Brauzerlar siyosati: Chrome, Edge, Yandex Browser ---
