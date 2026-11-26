@@ -705,6 +705,47 @@ dosgames.com
 playdosgames.com
 playclassic.games
 
+# --- Brauzer otishma o'yinlari, emulyatorlar, ROM saytlari, Eaglercraft ---
+bulletforce.io
+bullet-force-multiplayer.com
+forwardassault.com
+warmerise.com
+fortzone.io
+viverse.com
+justbuild.lol
+mathsspot.com
+emuos.com
+emupedia.net
+emulatorgamer.com
+myemulator.online
+retrogames.onl
+webretro.com
+skyemu.app
+retroarch.com
+emu-games.com
+snesfun.com
+nesbox.com
+emulator.online
+neshq.com
+playemulator.com
+romsfun.com
+romspedia.com
+romsgames.net
+romhustler.org
+emuparadise.me
+coolrom.com
+vimm.net
+wowroms.com
+eaglercraft.com
+eaglercraft.dev
+eaglercraft.org
+deev.is
+eagler.nully.tech
+dosgamesarchive.com
+oldgames.sk
+myabandonware.com
+abandonwaregames.net
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
