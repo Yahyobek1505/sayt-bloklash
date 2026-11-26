@@ -816,6 +816,39 @@ beamng.com
 assettocorsa.it
 tanktrouble.com
 
+# --- Musiqa tinglash va yuklab olish ---
+music.apple.com
+spotify.com
+deezer.com
+soundcloud.com
+tidal.com
+music.amazon.com
+music.yandex.com
+music.yandex.uz
+zvuk.com
+audiomack.com
+anghami.com
+pandora.com
+napster.com
+bandcamp.com
+mixcloud.com
+last.fm
+hitmotop.com
+muzofond.fm
+muzofon.com
+mp3party.net
+zaycev.net
+sefon.pro
+lightaudio.ru
+mp3juices.cc
+uzhits.net
+muztv.net
+muztv.uz
+quvonch.com
+muznavo.net
+yoshlar.com
+muzfm.tv
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
