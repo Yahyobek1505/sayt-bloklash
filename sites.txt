@@ -612,6 +612,28 @@ dreamleaguesoccer.com
 firsttouchgames.com
 efootball.com
 
+# --- Shaxmat va shashka ---
+chess.com
+lichess.org
+chesskid.com
+chessable.com
+chess24.com
+chessbase.com
+chesstempo.com
+chessgames.com
+365chess.com
+gameknot.com
+sparkchess.com
+worldchess.com
+chessclub.com
+chessbomb.com
+kasparovchess.com
+chessking.com
+247chess.com
+lidraughts.org
+playok.com
+247checkers.com
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
@@ -675,9 +697,3 @@ oldschool.runescape.com
 # prodigygame.com
 # prodigy.com
 # gamestolearnenglish.com
-# lichess.org
-# chess.com
-# chesskid.com
-# chessable.com
-# chess24.com
-# chessbase.com
