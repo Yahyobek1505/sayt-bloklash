@@ -777,6 +777,34 @@ motor1.com
 carwow.co.uk
 supercars.net
 
+# --- Bepul o'yin portallari ---
+coolgamesfree.org
+topgames.gg
+easy-games.io
+freetopgames.io
+gameanything.com
+releases.com
+freewebgames.io
+hotgames.lv
+coolgamesonline.io
+foony.com
+a10.com
+plonga.com
+4399.com
+7k7k.com
+minijuegos.com
+juegosjuegos.com
+juegos.com
+spielaffe.de
+mafa.com
+gry.pl
+spele.nl
+ojogos.com.br
+1001spiele.de
+gplusunblockgames.gitlab.io
+sectorplanton.github.io
+unblocked-66.github.io
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
