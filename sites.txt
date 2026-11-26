@@ -634,6 +634,64 @@ lidraughts.org
 playok.com
 247checkers.com
 
+# --- Stol, karta va boshqa brauzer o'yinlari ---
+frvr.com
+arkadium.com
+rarepike.com
+aol.com/games
+games.aol.com
+brainking.com
+chaturanga.online
+buddyboardgames.com
+mattle.online
+freeboardgames.org
+boardzilla.io
+vassalengine.org
+virtualtabletop.io
+boardspace.net
+boardgamecore.net
+happymeeple.com
+netgamers.it
+playdrift.com
+backgammongalaxy.com
+gammonvillage.com
+backgammonmasters.com
+bkgm.com
+247backgammon.org
+247games.com
+247solitaire.com
+247spades.com
+247hearts.com
+247freecell.com
+247mahjong.com
+solitr.com
+worldofsolitaire.com
+spider-solitaire-challenge.com
+online-solitaire.com
+free-online-solitaire.com
+cardzmania.com
+trickstercards.com
+vipgames.com
+coolmath-games.com
+games.lol
+zylom.com
+pogo.com
+msn.com/games
+crazygames.ru
+gamesgo.net
+durak.online
+yepi.com
+2playergames.io
+bubbleshooter.net
+bubbleshooter.com
+geometrydash.io
+gdash.io
+slope-game.io
+retrobowl.me
+emulatorjs.org
+webrcade.com
+archive.org/details/softwarelibrary
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
