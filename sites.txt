@@ -692,6 +692,19 @@ emulatorjs.org
 webrcade.com
 archive.org/details/softwarelibrary
 
+# --- Brauzerda Counter-Strike va eski o'yinlar ---
+abcya.com
+abcya.net
+mathplayground.com
+play-cs.com
+cs-online.club
+dos.zone
+js-dos.com
+quakejs.com
+dosgames.com
+playdosgames.com
+playclassic.games
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
@@ -737,12 +750,9 @@ oldschool.runescape.com
 # nitrotype.com
 # typeracer.com
 # monkeytype.com
-# abcya.com
-# abcya.net
 # pbskids.org
 # funbrain.com
 # natgeokids.com
-# mathplayground.com
 # education.com
 # arcademics.com
 # sheppardsoftware.com
