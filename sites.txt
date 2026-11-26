@@ -746,6 +746,37 @@ oldgames.sk
 myabandonware.com
 abandonwaregames.net
 
+# --- Avtomobil brendlari va mashina saytlari ---
+mercedes-amg.com
+mercedes-benz.com
+bmw.com
+bmw-m.com
+audi.com
+porsche.com
+ferrari.com
+lamborghini.com
+bugatti.com
+mclaren.com
+astonmartin.com
+bentleymotors.com
+rolls-roycemotorcars.com
+maserati.com
+koenigsegg.com
+pagani.com
+rimac-automobili.com
+lotuscars.com
+alfaromeo.com
+corvette.com
+dodge.com
+ford.com/performance
+nissan-global.com
+lexus.com
+tesla.com
+topgear.com
+motor1.com
+carwow.co.uk
+supercars.net
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
