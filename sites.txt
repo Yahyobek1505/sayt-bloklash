@@ -864,6 +864,14 @@ unblocked-games.s3.amazonaws.com
 suroi.io
 gamesgrid.com
 
+# --- Drift va mashina o'yini saytlari ---
+driffed.com
+drifthunters2.io
+drift-hunters.io
+drift-hunters.co
+180sx.club
+rawg.io
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
