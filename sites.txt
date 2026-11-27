@@ -915,6 +915,18 @@ games.dailymail.co.uk
 games.latimes.com
 games.aarp.org
 
+# --- Gazeta o'yinlari va kunlik jumboq o'yinlari ---
+arkadiumhosted.com
+games.bradenton.com
+games.independent.co.uk
+merriam-webster.com/games
+quordle.com
+octordle.com
+framed.wtf
+wafflegame.net
+squabble.me
+sumplete.com
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
