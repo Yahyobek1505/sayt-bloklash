@@ -872,6 +872,39 @@ drift-hunters.co
 180sx.club
 rawg.io
 
+# --- Qo'shimcha o'yin portallari va nusxa saytlar ---
+escaperoad.io
+slopeonline.online
+ihigames.com
+azelgames.com
+allwebgames.com
+aazzgames.com
+01game.info
+gamesfull.app
+gamesyy.com
+poki.to
+poki.ac
+poki.co.in
+pokigames.ac
+pokiigame.com
+poki2.net
+poki.ro
+poki.dev
+donutgames.com
+neal.fun
+slope-game.github.io
+slopegame.io
+slope3.com
+slope-game.org
+slopegame3d.com
+geometry-lite.io
+geometrydash-lite.io
+geometrydashlitepc.io
+geometrydashwave.io
+geometrygame.org
+gdbrowser.com
+drifthuntersgame.io
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
