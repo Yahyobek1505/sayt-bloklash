@@ -849,6 +849,21 @@ muznavo.net
 yoshlar.com
 muzfm.tv
 
+# --- easy-games kabi o'yin portallari ---
+easygames.io
+easy-game.io
+easyfungames.com
+easyfun.gg
+fawkesgames.com
+gamenora.com
+1games.io
+azgames.io
+webgamer.io
+bgames.com
+unblocked-games.s3.amazonaws.com
+suroi.io
+gamesgrid.com
+
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.
 # hosts fayli subdomenlarni o'zi bloklamaydi, shuning uchun alohida yozildi.
