@@ -676,7 +676,6 @@ coolmath-games.com
 games.lol
 zylom.com
 pogo.com
-msn.com/games
 crazygames.ru
 gamesgo.net
 durak.online
@@ -904,6 +903,17 @@ geometrydashwave.io
 geometrygame.org
 gdbrowser.com
 drifthuntersgame.io
+
+# --- MSN va gazeta o'yin bo'limlari ---
+# MSN to'liq bloklanadi. Edge yangi varaq sahifasidagi yangiliklar ham chiqmaydi.
+msn.com
+zone.com
+microsoftcasualgames.com
+games.washingtonpost.com
+games.usatoday.com
+games.dailymail.co.uk
+games.latimes.com
+games.aarp.org
 
 # --- Subdomenlar ---
 # Brauzerda ota domen orqali allaqachon bloklangan.

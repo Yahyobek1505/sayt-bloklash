@@ -125,7 +125,7 @@ rem hisoblab, hosts faylni tiklab yuborishi mumkin. Ular brauzerlarda baribir bl
         set "SITE=%%S"
         set "SKIP="
         if not "!SITE:/=!"=="!SITE!" set "SKIP=1"
-        for %%W in (microsoft bing xbox) do if not "!SITE:%%W=!"=="!SITE!" set "SKIP=1"
+        for %%W in (microsoft bing xbox msn) do if not "!SITE:%%W=!"=="!SITE!" set "SKIP=1"
         if not defined SKIP (
             echo 0.0.0.0 %%S %MARK%
             echo 0.0.0.0 www.%%S %MARK%
